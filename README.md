@@ -1,5 +1,5 @@
 # android-code-review
-Checklist to examine when reviewing Android code
+Checklist to examine when reviewing Android code - synthesizd over a few years of running into these problems.
 
 1. Are there any long running methods in a BroadcastReceiver? 
 2. Are operations that run in the background without an active application a) off the main thread and b) handled by a Service class?
